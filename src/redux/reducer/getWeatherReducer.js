@@ -7,6 +7,7 @@ const initialState = {
   isLoading: false,
   isSuccess: false,
   isError: false,
+  data:{}
 };
 
 const getWeatherReducer = (state = initialState, action) => {
@@ -23,6 +24,7 @@ const getWeatherReducer = (state = initialState, action) => {
         isLoading: false,
         isSuccess: true,
         isError: false,
+        data:action.user
       };
     }
     default:

@@ -13,5 +13,6 @@ export const getWeatherReport = (user) => {
 export const weatherReportRecieved = (user) => {
   return {
     type: WEATHER_REPORT_RECIEVED,
+    user
   };
 };
