@@ -51,7 +51,7 @@ const Weather = (props) => {
         <Text style={styles.text1}>Today Weather</Text>
       </View>
       <ImageBackground
-        source={require("../../assets/image/we.jpg")}
+        source={require("../../assets/image/weatherBackground.jpg")}
         style={styles.image}
       >
         <View style={styles.flex2}>

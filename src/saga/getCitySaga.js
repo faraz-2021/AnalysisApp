@@ -6,7 +6,6 @@ import { environment } from "../../environment";
 export function* GetCity(action) {
   try {
     const response = yield call(async () => {
-      console.log();
       const res = await axios.get(`${environment.api2}/countries/states`);
       return res;
     });

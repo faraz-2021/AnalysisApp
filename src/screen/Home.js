@@ -13,7 +13,7 @@ const Home = (props) => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("../../assets/image/images.jpeg")}
+        source={require("../../assets/image/homeBackgound.jpeg")}
         style={styles.image}
       >
         <TouchableOpacity
