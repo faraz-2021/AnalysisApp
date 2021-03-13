@@ -13,6 +13,7 @@ export function* GetWeather(action) {
         );
         return res;
       });
+      console.log(response.data, "ressssssssssssssssssss");
       let result = response.data;
       yield put(weatherReportRecieved(result));
     } catch (err) {

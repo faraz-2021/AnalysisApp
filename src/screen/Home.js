@@ -16,10 +16,16 @@ const Home = (props) => {
         source={require("../../assets/image/images.jpeg")}
         style={styles.image}
       >
-        <TouchableOpacity style={styles.btn1} onPress={()=>props.navigation.navigate('Data')}>
+        <TouchableOpacity
+          style={styles.btn1}
+          onPress={() => props.navigation.navigate("Data")}
+        >
           <Text style={styles.text1}>Data Analysis</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.btn2} onPress={()=>props.navigation.navigate('Weather')}>
+        <TouchableOpacity
+          style={styles.btn2}
+          onPress={() => props.navigation.navigate("Weather")}
+        >
           <Text style={styles.text1}>Today's Weather</Text>
         </TouchableOpacity>
       </ImageBackground>
